@@ -1,0 +1,25 @@
+Dec 25 10:15:22 ubuntu sshd[12345]: Failed password for root from 192.168.1.100 port 52341 ssh2
+Dec 25 10:15:25 ubuntu sshd[12346]: Failed password for admin from 192.168.1.100 port 52342 ssh2
+Dec 25 10:15:28 ubuntu sshd[12347]: Failed password for user from 192.168.1.100 port 52343 ssh2
+Dec 25 10:15:31 ubuntu sshd[12348]: Failed password for test from 192.168.1.100 port 52344 ssh2
+Dec 25 10:15:34 ubuntu sshd[12349]: Failed password for guest from 192.168.1.100 port 52345 ssh2
+Dec 25 10:15:37 ubuntu sshd[12350]: Failed password for ubuntu from 192.168.1.100 port 52346 ssh2
+Dec 25 10:16:22 ubuntu sshd[12351]: Accepted password for john from 192.168.1.50 port 52347 ssh2
+Dec 25 10:17:15 ubuntu sshd[12352]: Failed password for invalid user hacker from 203.0.113.25 port 45621 ssh2
+Dec 25 10:17:18 ubuntu sshd[12353]: Failed password for invalid user attacker from 203.0.113.25 port 45622 ssh2
+Dec 25 10:17:21 ubuntu sshd[12354]: Failed password for root from 203.0.113.25 port 45623 ssh2
+Dec 25 10:17:24 ubuntu sshd[12355]: Failed password for admin from 203.0.113.25 port 45624 ssh2
+Dec 25 10:17:27 ubuntu sshd[12356]: Failed password for user from 203.0.113.25 port 45625 ssh2
+Dec 25 10:17:30 ubuntu sshd[12357]: Failed password for test from 203.0.113.25 port 45626 ssh2
+Dec 25 10:18:45 ubuntu sshd[12358]: Failed publickey for deploy from 198.51.100.42 port 33221 ssh2
+Dec 25 10:18:48 ubuntu sshd[12359]: Failed publickey for deploy from 198.51.100.42 port 33222 ssh2
+Dec 25 10:19:12 ubuntu sshd[12360]: Invalid user scanner from 198.51.100.10 port 55443 ssh2
+Dec 25 10:19:15 ubuntu sshd[12361]: Failed password for invalid user scanner from 198.51.100.10 port 55443 ssh2
+Dec 25 10:19:18 ubuntu sshd[12362]: Invalid user bot from 198.51.100.10 port 55444 ssh2
+Dec 25 10:19:21 ubuntu sshd[12363]: Failed password for invalid user bot from 198.51.100.10 port 55444 ssh2
+Dec 25 10:19:24 ubuntu sshd[12364]: Connection closed by authenticating user temp 198.51.100.10 port 55445 [preauth]
+Dec 25 10:19:27 ubuntu sshd[12365]: Disconnected from 198.51.100.10 port 55446 [preauth]
+Dec 25 10:20:33 ubuntu sshd[12366]: Accepted publickey for alice from 192.168.1.75 port 44332 ssh2
+Dec 25 10:21:45 ubuntu sshd[12367]: Failed password for root from 10.0.0.5 port 22334 ssh2
+Dec 25 10:21:48 ubuntu sshd[12368]: Failed password for admin from 10.0.0.5 port 22335 ssh2
+Dec 25 10:25:22 ubuntu kernel: [123456.789] Out of memory: Kill process 12369 (some_process) score 900 or sacrifice child
