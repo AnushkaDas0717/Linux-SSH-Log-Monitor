@@ -4,17 +4,17 @@ A Python script that monitors SSH authentication logs to detect potential brute 
 
 ## Features
 
-- 🔍 **Real-time Analysis**: Parses `/var/log/auth.log` line by line
-- 🕒 **Time Window Tracking**: Monitors failures within configurable time windows (default: 10 minutes)
-- 🚨 **Alert System**: Triggers alerts when IP addresses exceed failure thresholds
-- 📊 **Comprehensive Reporting**: Provides detailed summaries of suspicious activities
-- 🛡️ **Multiple Attack Patterns**: Detects various SSH failure types:
+-  **Real-time Analysis**: Parses `/var/log/auth.log` line by line
+-  **Time Window Tracking**: Monitors failures within configurable time windows (default: 10 minutes)
+-  **Alert System**: Triggers alerts when IP addresses exceed failure thresholds
+-  **Comprehensive Reporting**: Provides detailed summaries of suspicious activities
+-  **Multiple Attack Patterns**: Detects various SSH failure types:
   - Failed password attempts
   - Failed public key authentication
   - Invalid user attempts
   - Pre-authentication disconnections
-- ⚡ **Performance Optimized**: Uses compiled regex patterns for fast processing
-- 🔒 **Error Handling**: Graceful handling of permission issues and missing files
+-  **Performance Optimized**: Uses compiled regex patterns for fast processing
+-  **Error Handling**: Graceful handling of permission issues and missing files
 
 ## Requirements
 
@@ -71,32 +71,32 @@ python3 ssh_detector.py --help
 ## Sample Output
 
 ```
-📖 Reading log file: /var/log/auth.log
-🔍 Threshold: 5 failures
-⏰ Time window: 10 minutes
+ Reading log file: /var/log/auth.log
+ Threshold: 5 failures
+ Time window: 10 minutes
 ------------------------------------------------------------
-🚨 ALERT: IP 192.168.1.100 has 6 failed attempts!
-🚨 ALERT: IP 203.0.113.25 has 6 failed attempts!
-🚨 ALERT: IP 198.51.100.10 has 5 failed attempts!
+ ALERT: IP 192.168.1.100 has 6 failed attempts!
+ ALERT: IP 203.0.113.25 has 6 failed attempts!
+ ALERT: IP 198.51.100.10 has 5 failed attempts!
 
-📊 Processing complete:
+ Processing complete:
    Total lines processed: 1,234
    SSH-related lines: 156
    Unique IPs with failures: 5
    Alerts triggered: 3
 
 ============================================================
-📋 SUMMARY OF FAILED SSH ATTEMPTS
+ SUMMARY OF FAILED SSH ATTEMPTS
 ============================================================
 IP Address      Failures   Status
 ----------------------------------------
-192.168.1.100   6          🚨 SUSPICIOUS
-203.0.113.25    6          🚨 SUSPICIOUS  
-198.51.100.10   5          🚨 SUSPICIOUS
-198.51.100.42   2          📝 Monitoring
-10.0.0.5        2          📝 Monitoring
+192.168.1.100   6           SUSPICIOUS
+203.0.113.25    6           SUSPICIOUS  
+198.51.100.10   5           SUSPICIOUS
+198.51.100.42   2           Monitoring
+10.0.0.5        2           Monitoring
 
-🔍 TOP SUSPICIOUS IPs (showing recent attempts):
+ TOP SUSPICIOUS IPs (showing recent attempts):
 ------------------------------------------------------------
 
 1. IP: 192.168.1.100 (6 failures)
@@ -204,4 +204,4 @@ If you encounter any issues or have questions, please:
 
 ---
 
-**⚠️ Disclaimer**: This tool is for monitoring and detection purposes only. Always ensure you comply with your organization's security policies and local laws when monitoring system logs.
+**⚠ Disclaimer**: This tool is for monitoring and detection purposes only. Always ensure you comply with your organization's security policies and local laws when monitoring system logs.
